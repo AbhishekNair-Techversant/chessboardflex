@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+.tile{
+	width: 80px;
+	height: 80px;
+}
+
+.row:nth-child(odd) .tile:nth-child(odd){
+	background-color: blue;
+}
+
+.row:nth-child(odd) .tile:nth-child(even){
+	background-color: green;
+}
+
+.row:nth-child(even) .tile:nth-child(odd){
+	background-color: green;
+}
+
+.row:nth-child(even) .tile:nth-child(even){
+	background-color: blue;
+}
+	

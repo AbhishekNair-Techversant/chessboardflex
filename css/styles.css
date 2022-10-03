@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+body{
+	background-color: #007eff;
+}
+
 .row{
 	display: flex;
 	justify-content: center;
@@ -14,18 +18,18 @@
 }
 
 .row:nth-child(odd) .tile:nth-child(odd){
-	background-color: blue;
+	background-color: white;
 }
 
 .row:nth-child(odd) .tile:nth-child(even){
-	background-color: green;
+	background-color: black;
 }
 
 .row:nth-child(even) .tile:nth-child(odd){
-	background-color: green;
+	background-color: black;
 }
 
 .row:nth-child(even) .tile:nth-child(even){
-	background-color: blue;
+	background-color: white;
 }
 	
